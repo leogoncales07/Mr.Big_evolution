@@ -1,0 +1,14 @@
+{
+  "name": "mr-big-evolution",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site de apresentação do Mr. Big Evolution, Carcavelos.",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node --check app.js && node --check server.mjs && node --check build.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
